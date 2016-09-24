@@ -548,6 +548,7 @@
     <Content Include="docs\Index.cshtml" />
     <Content Include="docs\Account\Profile.cshtml" />
     <Content Include="docs\Account\Login.cshtml" />
+    <Content Include="Read.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\ai.0.22.19-build00125.js" />
     <Content Include="Scripts\ai.0.22.19-build00125.min.js" />
@@ -592,6 +593,8 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Site.Mobile.Master" />
     <Content Include="Shared\_PageStart.cshtml" />
+    <Content Include="Shared\_Header.cshtml" />
+    <Content Include="Shared\_NavBar.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -599,6 +602,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <Content Include="Shared\_SiteLayout.cshtml" />
+    <Content Include="_AppStart.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Account\AddPhoneNumber.aspx.cs">

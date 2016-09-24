@@ -8,10 +8,14 @@
     </head>
     <body>
 		<div class="container">
-			<header class="col-md-12"></header>
-			<aside class="col-md-3"></aside>
+			<header class="col-md-12">
+				@RenderPage("~/Shared/_Header.cshtml")
+			</header>
+			<aside class="col-md-3">
+				@RenderPage("~/Shared/_NavBar.cshtml")
+			</aside>
 			<div class="col-md-9">
-
+				@RenderBody()
 			</div>
 		</div>
     </body>
